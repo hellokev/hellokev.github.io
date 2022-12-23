@@ -2,13 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.2">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/styles.css">
   </head>
   <body>
-    <a id="index" href="../index.html">Home</a>
-	<h1>Coming soon</h1>
+
+    <video autoplay muted loop id="vidBackground">
+      <source src="../images/rainy_night.mp4" type="video/mp4">
+    </video>
+
+    <header id="header">
+      <img src="../logo/kl_logo_trans.png">
+      <div>
+        <a id="index" href="../index.html">Home</a>
+        <a id="top" href="./about.html">About</a>
+        <a id="top" href="../pages/Kevin_Loi_Resume.pdf">Resume</a>
+      </div>
+    </header>
+
+    <div class="proj-desc">
+      <p id="proj-title">Etch-A-Sketch</p>
+      <a id="proj-link" href="https://github.com/hellokev/Etch-a-Sketch">Link</a>
+    </div>
+
+    <div class="port-vid">
+      <video autoplay muted loop id="sketch">
+        <source src="../images/etchsketch.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="proj-desc">
+      <p id="proj-title">SongSwipe</p>
+      <a id="proj-link" href="https://github.com/shatfield4/SongSwipe/">Link</a>
+    </div>
+
+    <div class="proj-desc">
+      <p id="proj-title">Weather Application</p>
+      <a id="proj-link" href="https://github.com/AnOrdinaryUsername/Weather-Apperino">Link</a>
+    </div>
+
+    <div class="port-vid">
+      <img src="../images/weatherapp.gif"/>
+    </div>
+
   </body>
 </html>
